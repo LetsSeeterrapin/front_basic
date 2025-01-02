@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML BASIC1</title>
+</head>
+<body style="background-color: white(232, 217, 217);">
+<!-- <body> -->
+    <h2>글자 styling 예제</h2>
+    <p style="background-color: red;">1. 배경색 변경</p>
+    <p style="color: blue;">2. 글자색변경</p>
+    <p style="font-size: 20px;">3. 글자크기 변경</p>
+    <p style="color: green; font-size: 25px; text-align: center;">4. 복합 스타일링</p>
+
+    <h2>link와 이미지 삽입</h2>
+    <!-- _blank는 새탭에서 열기 -->
+     <!--줄바꿈하고싶을 땐 dmlaldjqtdl <div>로 감싸준다 -->
+        <div>
+    <a href="https://naver.com"target=blank>네이버</a> 
+        </div>
+<div>
+    <a href="https://naver.com" target="_blank">
+        <!-- alt : 이미지가 깨졌을 때 대체문자열 -->
+        <img src="https://cdn.mediatoday.co.kr/news/photo/202008/208764_323867_853.jpg" style="border: 3px solid black;" width="210" height="140px" alt="수달">
+
+    </a>
+</div>
+<h2>리스트(ol-순서가 있는, ul-순서가 없는 리스트)</h2>
+<ol style="list-style-type: upper-roman">
+    <li>아이템A</li>
+    <li>아이템B</li>
+    <li>아이템C</li>
+</ol>
+<ul style="list-style-type: circle;">
+    <li>아이템A</li>
+    <li>아이템B</li>
+    <li>아이템C</li>
+</ul>
+<h2>테이블 예제</h2>
+<h2>테이블 예제</h2>
+<table border="1" style="border-collapse: collapse;">
+    <caption>테이블명</caption>
+    <thead>
+        <tr>
+            <th>컬럼1</th>
+            <th>컬럼2</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- 내용은 db에서 가지고와야함, 컬럼은 그럴필요X-->
+        <tr>
+            <td>내용1</td>
+            <td>내용2</td>
+        </tr>
+        <tr>
+            <td>내용A</td>
+            <td>내용B</td>
+        </tr>
+    </tbody>
+</table>
+
+<!-- 테이블 만들기 실습 -->
+ <!-- 테이블명 : post, 컬럼:id, title, contents, author_email -->
+  <table border="1" style="border-collapse: collapse;">
+    <caption style="color: green; font-size: 25px";>post</caption>
+    <thead>
+        <tr>
+            <th>id</th>
+            <th>title</th>
+            <th>contents</th>
+            <th>author_email</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>사랑</td>
+            <td>love</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>평화</td>
+            <td>peace</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>믿음</td>
+            <td>believe</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>용기</td>
+            <td>brave</td>
+            <td>4</td>
+        </tr>
+    </tbody>
+  </table>
+</body>
+</html>
