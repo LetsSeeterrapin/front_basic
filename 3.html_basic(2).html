@@ -20,11 +20,11 @@
             </div>
             <div>
                 <label for="">이메일</label>
-                <input type="email" name="email" name="email" size="10" maxlength="20">
+                <input type="email" name="email" size="10" maxlength="20">
             </div>
             <div>
                 <label for="">주소</label>
-                <!-- readonly 는 수정은 못하지만 서버로 전송. disabled는 수정도 못하소 서버로 전송 -->
+                <!-- readonly 는 수정은 못하지만 서버로 전송. disabled는 수정도 못하고 서버로 전송X -->
                  <!-- value는 defaut값 설정 -->
                 <input type="text" name="address" size="10" maxlength="20" value="서울시 영등포구" disabled>
             </div>  
@@ -45,8 +45,8 @@
                 <input type="checkbox" name="interests" value="book">독서
             </div>
             <div>
-                <label for=""></label>
-                <input type="datetime-local" name="birthday">
+                <label for="">생년월일</label>
+                <input type="date" name="birthday">
 
             </div>
             <div>

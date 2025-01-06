@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>계산기</title>
+</head>
+<body>
+    <h2>계산 프로그램 구현</h2>
+    <div>
+        사칙연산선택
+        <select id="1">
+            <option value="plus">덧셈</option>
+            <option value="minus">뺄셈</option>
+            <option value="gop">곱셈</option>
+            <option value="na">나눗셈</option>
+        </select>
+        <input id="num1" type="text">
+        <input id="num2" type="text">
+        <button onclick="calc()">연산실행</button>
+    </div>
+    <div id="result">결과값</div>
+    <script>
+        function calc(){
+            const what = document.getElementById("1").value
+            if(value = "plus"){
+                "result" = "num1" + "num2"
+            }
+        }
+    </script>
+</body>
+</html>
